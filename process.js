@@ -31,4 +31,5 @@ export default {
     //console.log("on", signal, func);
   },
   env: Deno.env.toObject(),
+  platform: "esm",
 };
