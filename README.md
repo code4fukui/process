@@ -1,21 +1,21 @@
 # process
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A `process` object emulator for Deno / ES modules.
+A Web/Code project by [Code for FUKUI](https://github.com/code4fukui).
 
-## Features
-- Provides a `process` object emulating the Node.js `process` object for Deno
-- Includes `argv`, `stderr`, `stdout`, `exit`, `on`, `env`, and `platform` properties
-- Allows writing to `stderr` and `stdout` through the provided objects
+**Live demo**: https://code4fukui.github.io/process/
 
-## Usage
-To use the `process` emulator, import the default export from the `process.js` file:
+## Technology Stack
 
-```javascript
-import process from './process.js';
-```
 
-You can then access the `process` object and its properties and methods.
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/process/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
